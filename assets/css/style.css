@@ -259,6 +259,30 @@ img{
         width: 60%;
     }
 }
+
+.skill_bar .bar .node{
+    width: 65%;
+    animation: node 2s;
+}
+@keyframes node {
+    0%{
+        width: 0%;
+    }100%{
+        width: 65%;
+    }
+}
+
+.skill_bar .bar .express{
+    width: 60%;
+    animation: express 2s;
+}
+@keyframes express {
+    0%{
+        width: 0%;
+    }100%{
+        width: 60%;
+    }
+}
 /*SKILLS*/
 #contact .form-control{
     background-color: var(--color-base);
